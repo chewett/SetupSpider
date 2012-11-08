@@ -14,3 +14,5 @@ yum install mysql-workbench
 yum install httpd
 
 yum install python-bottle
+
+yum install 0ad wesnoth
