@@ -12,3 +12,5 @@ yum install p7zip p7zip-plugins
 yum install filezilla
 yum install mysql-workbench
 yum install httpd
+
+yum install python-bottle
