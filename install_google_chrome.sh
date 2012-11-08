@@ -1,3 +1,4 @@
+#!/bin/bash
 wget https://dl-ssl.google.com/linux/linux_signing_key.pub
 rpm --import linux_signing_key.pub
 
