@@ -14,7 +14,7 @@ yum install mysql-workbench
 yum install httpd
 yum install ipython
 yum install svn
-
+yum install josm
 yum install python-bottle
 
 yum install 0ad wesnoth
