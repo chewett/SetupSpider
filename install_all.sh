@@ -1,6 +1,6 @@
 #!/bin/bash
 yum install mysql mysql-server
-
+yum install git
 yum install git geany gimp inkscape calibre pidgin thunderbird 
 yum install xchat gnucash libreoffice eclipse mysql banshee terminator
 
