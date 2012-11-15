@@ -1,4 +1,6 @@
 #!/bin/bash
+yum update
+
 yum install mysql mysql-server
 yum install git
 yum install git geany gimp inkscape calibre pidgin thunderbird 
