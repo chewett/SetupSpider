@@ -4,4 +4,4 @@
 yum install texmaker
 
 #this is the installation for gatex automata drawing and other rubbish
-yum install texlive-gastex
+yum install tex-gastex
