@@ -6,7 +6,6 @@ yum install git geany gimp inkscape calibre pidgin thunderbird
 yum install xchat gnucash libreoffice eclipse mysql banshee terminator
 yum install htop
 yum install vlc
-yum install texmaker
 yum install p7zip p7zip-plugins
 yum install filezilla
 yum install mysql-workbench
