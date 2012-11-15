@@ -12,5 +12,9 @@ yum install php php-mysql php-mcrypt
 
 ####POST INSTALL
 
+#starts mysql daemon for now
+systemctl start mysqld
 #sets up mysql nicely
 /usr/bin/mysql_secure_installation
+#stops mysql daemon
+systemctl stop mysqld
