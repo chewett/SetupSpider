@@ -1,4 +1,6 @@
 #!/bin/bash
-su -c 'rpm -ivh adobe-release-x86_64-1.0-1.noarch.rpm'
-su -c 'rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux'
-su -c 'yum install nspluginwrapper alsa-plugins-pulseaudio flash-plugin'
+wget http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
+
+rpm -ivh adobe-release-x86_64-1.0-1.noarch.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+yum install -y nspluginwrapper alsa-plugins-pulseaudio flash-plugin
