@@ -8,3 +8,6 @@ yum install tex-gastex
 
 #add all the nice fonts
 yum install texlive-collection-fontsrecommended texlive-times
+
+#we want fullpage
+yum install 'tex(fullpage.sty)'
