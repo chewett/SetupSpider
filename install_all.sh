@@ -1,8 +1,12 @@
 #!/bin/bash
 yum update
 
+yum install -y vim
+yum install -y screen
 yum install -y git
-yum install -y git geany gimp inkscape calibre pidgin thunderbird 
+yum install -y geany 
+yum install -y gimp inkscape 
+yum install -y calibre pidgin thunderbird 
 yum install -y xchat gnucash libreoffice eclipse mysql banshee terminator
 yum install -y htop
 yum install -y vlc
