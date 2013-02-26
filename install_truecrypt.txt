@@ -1,0 +1,3 @@
+install libfuse then truecrypt
+
+yum install fuse fuse-devel
