@@ -19,6 +19,7 @@ yum install -y thunderbird
 yum install -y xchat 
 yum install -y gnucash 
 yum install -y libreoffice
+yum install -y vlc
 
 #web stuff
 yum install -y eclipse 
