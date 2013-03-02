@@ -3,6 +3,7 @@ yum update
 
 #core stuff used
 yum install -y vim
+yum install -y emacs
 yum install -y screen
 yum install -y htop
 yum install -y terminator
@@ -26,6 +27,7 @@ yum install -y eclipse
 yum install -y mysql
 yum install -y mysql-workbench
 yum install -y filezilla
+yum install -y cssed
 
 yum install -y banshee
 yum install -y vlc
