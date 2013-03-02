@@ -1,14 +1,14 @@
 #!/bin/bash
 
 #the webserver
-yum install httpd
+yum install httpd -y
 
 #install mysql and the server application
-yum install mysql mysql-server
+yum install mysql mysql-server -y
 
 #install php
 #php-mcrypt - needed for encryption stuff
-yum install php php-mysql php-mcrypt
+yum install php php-mysql php-mcrypt -y
 
 ####POST INSTALL
 
