@@ -33,5 +33,3 @@ yum install -y ipython
 yum install -y josm
 yum install -y python-bottle
 
-# games
-yum install -y 0ad wesnoth
