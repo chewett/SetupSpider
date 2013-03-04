@@ -11,6 +11,8 @@ yum install -y svn
 yum install -y p7zip p7zip-plugins
 yum install -y git
 yum install -y wget
+yum install -y unrar
+
 
 yum install -y geany 
 yum install -y gimp inkscape 
