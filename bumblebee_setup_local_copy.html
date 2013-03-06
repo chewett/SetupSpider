@@ -1,0 +1,623 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="keywords" content="bumblebee" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/mediawiki/opensearch_desc.php" title="NCSUTechstaffDocs (English)" />
+		<title>bumblebee - NCSUTechstaffDocs</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/mediawiki/skins/common/shared.css?97";
+			@import "/mediawiki/skins/monobook/main.css?97";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/mediawiki/skins/common/commonPrint.css?97" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/mediawiki/skins/monobook/IE50Fixes.css?97";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/mediawiki/skins/monobook/IE55Fixes.css?97";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/mediawiki/skins/monobook/IE60Fixes.css?97";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/mediawiki/skins/monobook/IE70Fixes.css?97";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/mediawiki/skins/common/IEFixes.js?97"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/mediawiki/skins";
+var wgArticlePath = "/wiki/$1";
+var wgScriptPath = "/mediawiki";
+var wgScript = "/mediawiki/index.php";
+var wgServer = "http://techies.ncsu.edu";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "bumblebee";
+var wgTitle = "bumblebee";
+var wgAction = "view";
+var wgRestrictionEdit = [];
+var wgRestrictionMove = [];
+var wgArticleId = "2096";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "4194";
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/mediawiki/skins/common/wikibits.js?97"><!-- wikibits js --></script>
+		<script type="text/javascript" src="/mediawiki/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/mediawiki/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/mediawiki/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/mediawiki/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/mediawiki/skins/common/ajax.js?97"></script>
+		<script type="text/javascript" src="/mediawiki/skins/common/ajaxsearch.js?97"></script>
+		<script type="text/javascript">hookEvent("load", sajax_onload);</script>
+	</head>
+<body  class="mediawiki ns-0 ltr page-bumblebee">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+				<h1 class="firstHeading">bumblebee</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From NCSUTechstaffDocs</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<p><a href="/wiki/Image:Fedorarhellogo.png" class="image" title="Image:Fedorarhellogo.png"><img alt="Image:Fedorarhellogo.png" src="/mediawiki/files/Fedorarhellogo.png" width="256" height="132" border="0" /></a>
+</p>
+<p>
+Many recent notebooks with a discrete nvidia card and a i3/i5/i7 processor use nvidia optimus technology to improve battery life. Unfortunately, this software solution is only available in Windows 7 and later.
+</p>
+<p>
+The Bumblebee Project, along with bbswitch and primus, is a set of tools developed by people aiming to provide Optimus support under Linux while waiting for the Linux kernel and drivers to support these notebooks officially via PRIME.
+</p>
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#Installing_bumblebee_software_on_a_recent_fedora_or_RHEL_6.2A"><span class="tocnumber">1</span> <span class="toctext">Installing bumblebee software on a recent fedora or RHEL 6*</span></a></li>
+<li class="toclevel-1"><a href="#Nvidia_drivers"><span class="tocnumber">2</span> <span class="toctext">Nvidia drivers</span></a></li>
+<li class="toclevel-1"><a href="#Primus"><span class="tocnumber">3</span> <span class="toctext">Primus</span></a></li>
+<li class="toclevel-1"><a href="#Lets_recap_all_the_various_packages_you_need_now"><span class="tocnumber">4</span> <span class="toctext">Lets recap all the various packages you need now</span></a></li>
+<li class="toclevel-1"><a href="#How_to_use_bumblebee"><span class="tocnumber">5</span> <span class="toctext">How to use bumblebee</span></a></li>
+<li class="toclevel-1"><a href="#Known_Issues"><span class="tocnumber">6</span> <span class="toctext">Known Issues</span></a></li>
+<li class="toclevel-1"><a href="#bumblebee_in_fedora"><span class="tocnumber">7</span> <span class="toctext">bumblebee in fedora</span></a></li>
+<li class="toclevel-1"><a href="#bbswitch_kernel_module"><span class="tocnumber">8</span> <span class="toctext">bbswitch kernel module</span></a></li>
+<li class="toclevel-1"><a href="#How_will_the_.22official.22_PRIME_solution_work_when_its_ready.3F"><span class="tocnumber">9</span> <span class="toctext">How will the "official" PRIME solution work when its ready?</span></a></li>
+<li class="toclevel-1"><a href="#Lenovo_ideapad_Y470_.2F_Y480_.2F_Y570_.2F_Y580_.2F_Lenovo_G580_.2F_G780_.2F_Toshiba_Satellite_P870_further_info"><span class="tocnumber">10</span> <span class="toctext">Lenovo ideapad Y470 / Y480 / Y570 / Y580 / Lenovo G580 / G780 / Toshiba Satellite P870 further info</span></a></li>
+<li class="toclevel-1"><a href="#Important_bumblebee_links"><span class="tocnumber">11</span> <span class="toctext">Important bumblebee links</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="Installing_bumblebee_software_on_a_recent_fedora_or_RHEL_6.2A"></a><h2> <span class="mw-headline"> Installing bumblebee software on a recent fedora or RHEL 6* </span></h2>
+<p>
+ *By RHEL 6, I mean RHEL 6, CentOS 6, Scientific Linux 6, PUIAS, etc. Basically any RHEL 6 clone distro. 
+</p>
+<p>
+One thing first. If you own a Lenovo ideapad Y470/Y480/Y570/Y580, a Lenovo G580/G780 or a Toshiba Satellite P870 laptop, There is <a href="https://bugzilla.kernel.org/show_bug.cgi?id=42696" class="external text" title="https://bugzilla.kernel.org/show_bug.cgi?id=42696" rel="nofollow">a bug</a> in the Linux kernel that makes optimus not work on your notebook. It is a bug in the kernel, <b>NOT</b> in the notebook BIOS. It involves the ACPI subsystem. I made a bugzilla for RHEL 6 <a href="https://bugzilla.redhat.com/show_bug.cgi?id=907241" class="external text" title="https://bugzilla.redhat.com/show_bug.cgi?id=907241" rel="nofollow">here</a> and also I made a bugzilla for fedora 18 <a href="https://bugzilla.redhat.com/show_bug.cgi?id=903360" class="external text" title="https://bugzilla.redhat.com/show_bug.cgi?id=903360" rel="nofollow">here</a>. If you own one of these affected models, and you care about either of these distros, please add yourself to the CC list within the fedora or rhel 6 bugzilla. (Whichever you care about / use) There is a little more information near the end of this document that might help you out also.
+</p>
+<p>
+The bumblebee / bbswitch / primus packages are all a part of a <a href="https://launchpad.net/~hybrid-graphics-linux" class="external text" title="https://launchpad.net/~hybrid-graphics-linux" rel="nofollow">collection of software</a> that aims to get hybrid graphics laptops to work 100% under Linux. Currently bumblebee, bbswitch and primus only work with an intel / nvidia hybrid setup but hopefully in the future intel/AMD and AMD/AMD users with hybrid graphics laptops (PowerXpress) will have more Linux solutions available via PRIME. Currently primus requires the closed source nvidia module unless you edit the primusrun script yourself. Primus has not been well tested with nouveau, and the author prefers it be tinkered with only by power users willing to take the risk of bugs. 
+</p>
+<p>
+So, The <b>very</b> first thing we need to do is make sure our fedora / rhel 6 system is up to date. This is important if you don't have a "development" workstation. We want the kernel-devel packages to be in sync with whatever kernel you have installed! So run this command as root: 
+</p>
+<p><pre>
+yum -y update
+</pre></p>
+<p>
+If your kernel is one of the packages that got updated, go ahead and reboot before moving to the next instructions. 
+</p>
+<p>
+So the first thing we need to do is to set up the bumblebee yum repository I created. 
+</p>
+<p>
+On RHEL 6, type this command as root: 
+</p>
+<p><pre>
+yum -y --nogpgcheck install http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee/rhel6/noarch/bumblebee-release-1.0-1.noarch.rpm
+</pre></p>
+<p>
+Please note: If you are using RHEL 6, you also need to add the EPEL repository.
+</p>
+<p><pre>
+yum -y --nogpgcheck install http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+</pre></p>
+<p>
+On fedora 17, type this command as root: 
+</p>
+<p><pre>
+yum -y --nogpgcheck install http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee/fedora17/noarch/bumblebee-release-1.0-1.noarch.rpm
+</pre></p>
+<p>
+On fedora 18, type this command as root: 
+</p>
+<p><pre>
+yum -y --nogpgcheck install http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee/fedora18/noarch/bumblebee-release-1.0-1.noarch.rpm
+</pre></p>
+<p>
+Next, we need to install the packages. This is the same for all red hat type distros: 
+</p>
+<p><pre>
+yum -y install bbswitch bumblebee
+</pre></p>
+<p>
+You can install bumblebee without bbswitch but I do not recommend it. Without bbswitch "optirun" may not work after a hibernate or suspend operation. And if you are like me you suspend/hibernate your laptop all the time. See <a href="https://github.com/Bumblebee-Project/Bumblebee/wiki/Comparison-of-PM-methods" class="external text" title="https://github.com/Bumblebee-Project/Bumblebee/wiki/Comparison-of-PM-methods" rel="nofollow">this page</a> for more information. 
+</p>
+<p>
+If you "yum install" while you are in an X session you need to log out and log back in after the yum commands finish. RHEL 6 and clone users must reboot at this point while fedora users just need to log out and log back in again so the "session" can have been run by a user in the correct UNIX group. If you are the only user on your laptop, and you chose GNOME as your desktop, there won't be a "logout" in the menu in fedora 18 so just select "Power Off" then click on "Restart" in the po up dialog if you don't see a logout option.
+</p>
+<p>
+Whichever distro you are using, after a reboot (rhel 6) or a logout followed by a login (fedora) you can test bumblebee by typing into a terminal window: 
+</p>
+<p><pre>
+optirun glxgears
+</pre></p>
+<p>
+If everything worked, you should see a window with spinning gears in it. Unfortunately, the nouveau drivers do not work on fedora 18 at this time. It is opened as <a href="https://github.com/Bumblebee-Project/Bumblebee/issues/298" class="external text" title="https://github.com/Bumblebee-Project/Bumblebee/issues/298" rel="nofollow">issue #298</a>. Sorry about that. Any help working on that would be greatly appreciated! So for now, you need to use the nvidia drivers. Or... just give up. Keep reading for more info on how to install the nvidia drivers with bumblebee / primus...
+</p>
+<p><a href="/wiki/Image:OO42b.png" class="image" title="Image:OO42b.png"><img alt="Image:OO42b.png" src="/mediawiki/files/OO42b.png" width="500" height="281" border="0" /></a>
+</p>
+<p>
+If you installed "bumblebee" in a kickstart or before firstboot, if your $HOME directory is not under "/home", or <b>if you add additional users to your system after you have installed the bumblebee package</b> you will need to add the additional users to the bumblebee group by hand. You can do this by running the following command as root: 
+</p>
+<p><pre>
+ /usr/sbin/usermod -a -G bumblebee USERNAME
+</pre></p>
+<p>
+Where, <b>USERNAME</b> is the name of the account to add to the bumblebee group. Users <b>MUST</b> be in the bumblebee group for optirun to work for them. 
+</p>
+<p>
+WHAT ABOUT NVIDIA DRIVERS??? The nouveau driver does not meet my needs! It doesn't work on fedora, only RHEL 6...
+</p>
+<a name="Nvidia_drivers"></a><h2> <span class="mw-headline"> Nvidia drivers </span></h2>
+<p><a href="/wiki/Image:Nvidia-big_logo.png" class="image" title="Image:Nvidia-big_logo.png"><img alt="Image:Nvidia-big_logo.png" src="/mediawiki/files/Nvidia-big_logo.png" width="200" height="160" border="0" /></a>
+</p>
+<p>The nvidia binary driver must be installed in a way that won't break LibGL from mesa on the integrated (Intel) driver. 3D support must work properly on the integrated display if VirtualGL or primus is to work. VirtualGL or primus must work for "optirun" or "primusrun" to work. By default, the nvidia packages at rpmfusion.org, or elrepo.org, do not work correctly for our purposes. Thus, I created my own solution called bumblebee-nvidia. It is not GPLed. But I do have a package / shell script to deal with the closed source NVidia drivers. To keep things less controversial, due to the license, I've placed bumblebee-nvidia in a different repository I will call bumblebee-nonfree. I place the shell script into the public domain... 
+</p>
+<p>
+So the next thing we need to do is to set up the bumblebee-nonfree yum repository... 
+</p>
+<p>
+On RHEL 6, type this command as root: 
+</p>
+<p><pre>
+yum -y --nogpgcheck install http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee-nonfree/rhel6/noarch/bumblebee-nonfree-release-1.0-1.noarch.rpm
+</pre></p>
+<p>
+On fedora 17, type this command as root: 
+</p>
+<p><pre>
+yum -y --nogpgcheck install http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee-nonfree/fedora17/noarch/bumblebee-nonfree-release-1.0-1.noarch.rpm
+</pre></p>
+<p>
+On fedora 18, type this command as root: 
+</p>
+<p><pre>
+yum -y --nogpgcheck install http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee-nonfree/fedora18/noarch/bumblebee-nonfree-release-1.0-1.noarch.rpm
+</pre></p>
+<p>
+Next, we need to install the single package. This is the same for all red hat type distros: 
+</p>
+<p><pre>
+yum -y install bumblebee-nvidia
+</pre></p>
+<p>
+"bumblebee-nvidia" is both a rpm package and a shell script. The "bumblebee-nvidia" package contains the shell "wrapper" script, init scripts to run it at bootup, and a SELinux security policy, and lastly a copy of the NVidia Linux binary driver "blob" downloaded from NVidia's UNIX drivers page. This is why the packages are so large comparred to for example the bumblebee rpm.
+</p>
+<p>
+After installing the package most users will want to reboot. bumblebee-nvidia is designed to do its thing on bootup. Basically, bumblebee-nvidia should not be run if you are logged in on a X session on one of the virtual consoles. This is because bumblebee-nvidia moves some underlying librararies around as it runs and this can cause your X session to crash. It does not appear to crash gdm or plymouth. But it can crash you regular user X session if you are logged in that way. 
+</p>
+<p>
+So for most users, reboot. As the system comes back up, the nvidia driver will be built for the current running kernel. If you are running RHEL 6 then the login screen, gdm won't start until after the nvidia drivers have been built. 
+</p>
+<p>
+If you are running a recent fedora its more complicated. By the time the login screen comes up the NVidia drivers are likely still compiling due to the systemd init system. I suggest you wait a moment before logging in. If you forget your X session may crash which is usually harmless. If this happens just log in again. After the hard drive activity light calms down optirun should work normally. 
+</p>
+<p>
+If for some reason you do not wish to reboot, press CTRL-ALT-F(2-6) to get to a virtual console and log in as root. You can do this compiling drivers process manually by typing: 
+</p>
+<p><pre>
+/usr/sbin/bumblebee-nvidia
+</pre></p>
+<p>
+The shell script bumblebee-nvidia will only build the NVidia driver on kernels it has not been built on before without the --force switch. Also bumblebee-nvidia must be run on kernels it is intended for. So if later on, you have downloaded and installed a new kernel package via yum update you have no choice but to reboot to build the drivers for the new kernel. bumblebee-nvidia works kind of like DELL's dkms package in this respect. As a side note, dkms is used by the bbswitch package. If you didn't install bbswitch earlier it will be installed with bumblebee-nvidia as an rpm dependency. The bumblebee-nvidia script acts kind of like dkms but it does not actually use dkms in any way. Its just a solution I made up to solve this bumblebee driver problem until someone more knowledgeable than me can create some kind of proper kmod type package that doesn't break mesa.
+</p>
+<p>
+So... after the bumblebee-nvidia script finishes you can press CTRL-ALT-F1 or CTRL-ALT-F7 to get back to X and then login normally and use optirun like you would after a reboot. Rebooting at this point will not cause the driver to be rebuilt until a newer kernel gets installed <b>and</b> the script detects that its running under the new kernel. 
+</p>
+<p>
+If you ran optirun even once with the nouveau driver it will "taint" your system until you reboot again. The NVidia installer will not work if you have loaded nouveau to the point where a fake X screen was created. (via optirun) 
+</p>
+<p>
+If you decide not to reboot and to compile by hand then you will likely see this warning message on RHEL 6: 
+</p>
+<p><pre>
+[VGL] WARNING: The OpenGL rendering context obtained on X display
+[VGL]   &nbsp;:8.0 is indirect, which may cause performance to suffer.
+[VGL]    If&nbsp;:8.0 is a local X display, then the framebuffer device
+[VGL]    permissions may be set incorrectly.
+</pre></p>
+<p>
+A reboot seems to always fix this under RHEL. So because of these kind of problems I suggest rebooting to compile bumblebee-nvidia rather than compiling on the console by hand. If the script fails on bootup you can then try passing a "--debug" argument to bumblebee-nvidia by hand like this: 
+</p>
+<p><pre>
+/usr/sbin/bumblebee-nvidia --debug
+</pre></p>
+<p>
+If you pass a --debug argument in while logged into a VT console or ssh'ed into your notebook you are more likely to see some error messages which might give clues as to what has gone wrong with the NVIDIA-Linux-*.run installer on a given kernel... 
+</p>
+<p>
+Type:
+</p>
+<p><pre>
+/usr/sbin/bumblebee-nvidia --check
+</pre></p>
+<p>
+for information about whether the bbswitch and nvidia modules compiled correctly. If you run into trouble this is usually the first command you should try.
+</p>
+<p>
+Type:
+</p>
+<p><pre>
+/usr/sbin/bumblebee-nvidia --help
+</pre></p>
+<p>
+for a full list of options the shell script accepts.
+</p>
+<p>
+If anyone has a better way of doing this, lets do it and get it into elrepo / rpmfusion somehow... Email me and we can try to figure it out. Or just even do it on your own! I'm willing to work with people on this problem. But its kind of a weird one and the nvidia-x11-drv package probbaly needs to be altered somehow. And then submitted as a review request. So for now there is this package.
+</p>
+<a name="Primus"></a><h2> <span class="mw-headline"> Primus </span></h2>
+<p>
+Primus is a shared library that provides OpenGL and GLX APIs and implements low-overhead local-only client-side OpenGL offloading via GLX 
+forking, similar to VirtualGL. It intercepts GLX calls and redirects GL rendering to a secondary X display, presumably driven by a faster GPU. 
+On swapping buffers, rendered contents are read back using a PBO and copied onto the drawable it was supposed to be rendered on in the first 
+place.
+</p>
+<p>
+So, "optirun" is a part of the bumblebee package. And it uses <a href="http://www.virtualgl.org/" class="external text" title="http://www.virtualgl.org/" rel="nofollow">VirtualGL</a>. VirtualGL is great. But it isn't really made for playing games on hybrid graphics systems. So, since you already installed the nvidia drivers if you got this far, then go ahead and install primus as well. If you need to run 32 bit apps, you need to install the 32 bit versions...
+</p>
+<p>
+Only care about 64 bit apps? run:
+</p>
+<p><pre>
+yum install primus
+</pre></p>
+<p>
+Need 32 bit app support?
+</p>
+<p><pre>
+yum install primus.x86_64 primus.i686 VirtualGL.i686
+</pre></p>
+<p>
+Now you can run apps with "primusrun"
+</p>
+<p>
+To test if primusrun is working type:
+</p>
+<p><pre>
+PRIMUS_VERBOSE=2 primusrun glxgears
+</pre></p>
+<p>
+If primus is working properly, you should see "primus: profiling:" messages every so often in the terminal you ran it from.
+</p>
+<p>
+Primus, via primusrun is preffered over optirun and VirtualGL now. When setting up a new game, try primusrun first and only fallback to optirun if primusrun fails to work.
+</p>
+<p>
+Version 4.0 of bumblebee will use primus as the default solution for displaying 3d graphics on your screen.
+</p> 
+<p>
+If you are using RHEL 6, you cannot use primus. It requires a newer mesa library than what you have. I'm sorry about that. I'm working on trying to build a newer mesa for RHEL 6 so I have not completely given up yet. So far I have had mixed results...
+</p>
+<a name="Lets_recap_all_the_various_packages_you_need_now"></a><h2> <span class="mw-headline"> Lets recap all the various packages you need now </span></h2>
+<p>
+Only care about 64 bit apps?
+</p>
+<p><pre>
+yum -y install bumblebee bbswitch bumblebee-nvidia primus
+</pre></p>
+<p>
+Care about running both 32 and 64 bit apps on your dGPU?
+</p>
+<p><pre>
+yum -y install bumblebee bbswitch bumblebee-nvidia primus.x86_64 primus.i686 VirtualGL.x86_64 VirtualGL.i686
+</pre></p>
+<p>
+That should about cover installing all the software. Which brings us next to using it.
+</p>
+<a name="How_to_use_bumblebee"></a><h2> <span class="mw-headline"> How to use bumblebee </span></h2>
+<p>
+General Usage:
+</p>
+<p><pre>
+primusrun [application-parameters]
+optirun [options]  [application-parameters]
+</pre></p>
+<p>
+Some Examples:
+</p>
+<p>
+Start Firefox accelerated with Optimus: 
+</p>
+<p><pre>
+[somebody@localhost ~]$ primusrun firefox
+</pre></p>
+<p>
+or...
+</p>
+<p><pre>
+[somebody@localhost ~]$ optirun firefox
+</pre></p>
+<p>
+Start Minecraft with Optimus: 
+</p>
+<p><pre>
+[somebody@localhost ~]$ primusrun java -Xmx1024M -Xms1024M -cp minecraft.jar net.minecraft.LauncherFrame &amp;
+</pre></p>
+<p>
+or...
+</p>
+<p><pre>
+[somebody@localhost ~]$ optirun java -Xmx1024M -Xms1024M -cp minecraft.jar net.minecraft.LauncherFrame &amp;
+</pre></p>
+<p>
+Use Nvidia Settings with Optimus: (primus doesn't work with this program)
+</p>
+<p><pre>
+[somebody@localhost ~]$ optirun nvidia-settings -c&nbsp;:8
+</pre></p>
+<p>
+Hopefully these instructions and packages will help some other Optimus laptop fedora and RHEL 6 users out. I mainly created these for my own use but I wanted to share them in case other people found them helpful in any way. If anyone would like to adopt these packages for other repos / distros / whatever permission is granted by me for you to do that. These are some of the first packages I have built that are perhaps useful to other Red Hat folks so I'm still trying to figure out how to submit them to some other repos... Which brings us to the known issues section. </p>
+<a name="Known_Issues"></a><h2> <span class="mw-headline"> Known Issues </span></h2>
+<p>
+You can run:
+</p>
+<p><pre>
+/usr/sbin/bumblebee-nvidia --check
+</pre></p>
+<p>
+To see if there were problems compiling your bbswitch or nvidia modules. If you are having problems this is probably the first command you should try. You don't need to be root to run the --check mode of this script unlike the normal usage when you compile a new nvidia driver.  
+</p>
+<p>
+Some error messages you might see: 
+</p>
+<p><pre>
+[ERROR]Cannot access secondary GPU - error: [XORG] (EE) [drm] failed to open device
+</pre></p>
+<p>
+I've seen this error on RHEL 6 when I failed to reboot after running the "yum install" commands. 
+</p>
+<p><pre>
+[ERROR]You've no permission to communicate with the Bumblebee daemon. Try adding yourself to the 'bumblebee' group
+[ERROR]Could not connect to bumblebee daemon - is it running?
+</pre></p>
+<p>
+Some things to try. 
+</p>
+<p>
+Is bumblebeed running? Did you log out and log back in? 
+</p>
+<p>
+Did you add a user after installing bumblebee rpm? 
+</p>
+<p>
+Is your $HOME directory somewhere other than /home/&nbsp;? 
+</p>
+<p>
+Try running: 
+</p>
+<p><pre>
+/usr/sbin/usermod -a -G bumblebee USERNAME
+</pre></p>
+<p>
+Where, <b>USERNAME</b> is your account name to add to the bumblebee group. You MUST be in the bumblebee group for primusrun or optirun to work. 
+</p>
+<p>
+32 bit OS issues:
+</p>
+<p>
+Running a 32 bit OS on 64 bit system and seeing this in the logs when optirun / primusrun fails?
+</p>
+<p><pre>
+localhost kernel: vmap allocation for size XXXXXXXX failed: use vmalloc= to increase size
+</pre></p>
+<p>
+You can add a vmalloc= argument to the kernel argumenst via grub. The amount after the equal sign depnds on how much RAM your notebook has. Check out the nvidia README file. Or a better way to work around this problem is to use a 64 bit OS and use multilib to run any 32 bit apps you need to. If you aren't too familiar with multilib, what this means is that if you try to run a game, and its missing some library, find out what package the library belongs to and if its already installed in a 64 bit directory, like /usr/lib64/*. If the library is in /usr/lib64/, but the game complains about /usr/lib/, then install the 32 bit version of that. If you have the 64 bit version of package libfoo you might need to install libfoo.i686 to get a given game to work. So your 64 bit OS is perfectly capable of running 32 bit binaries. 
+</p>
+<p>
+Primus is slower than optirun. Why?
+</p>
+<p>
+Its not. VirtualGL is wrong.
+</p>
+<p>
+It's not possible to make a good comparison against VirtualGL at high fps values, especially when you're passing `-fps 60`, because VirtualGL does not really display all frames the applications renders. E.g. with `VGL_FPS=1 optirun glxspheres` glxspheres will still report 100+ fps. So... please test with workloads where performance really matters, i.e. at 30-60 fps (and double check with your eyes). Also, keep in mind that compositing hurts performance.
+</p>
+<p>
+nouveau drivers do not work on fedora 18 at this time. See <a href="https://github.com/Bumblebee-Project/Bumblebee/issues/298" class="external text" title="https://github.com/Bumblebee-Project/Bumblebee/issues/298" rel="nofollow">#298</a> for further information. You must use nvidia for now. 
+</p>
+<p>
+To test if primusrun is working type:
+</p>
+<p><pre>
+PRIMUS_VERBOSE=2 primusrun glxgears
+</pre></p>
+<p>
+If primus is working properly, you should see "primus: profiling:" messages every so often in the terminal you ran it from.
+</p>
+<p>
+If you are still having problems and can't figure out what is wrong, run:
+</p>
+<p><pre>
+/usr/bin/bumblebee-bugreport
+</pre></p>
+<p>
+with root permissions and follow the instructions the program gives you for reporting problems. 
+</p>
+<a name="bumblebee_in_fedora"></a><h2> <span class="mw-headline"> bumblebee in fedora </span></h2>
+<p>
+I am trying to get the various bumblebee packages into fedora and EPEL in an official capacity. That way one would not need to add my repository before running the yum install commands. Its rather difficult to get packages into fedora however... Packages must meet certain criteria before acceptence. So far only VirtualGL has been accepted into fedora by one of the developers. (My fedora packaging sponsor)
+</p>
+<p>
+Since bumblebee depends on VirtualGL it had to be submitted for review in fedora and EPEL just like bumblebee is under review. Currently VirtualGL has been pushed out into fedora so it has been removed from this fedora repo. I am working on getting it into EPEL with Red Hat bugzilla <a href="https://bugzilla.redhat.com/show_bug.cgi?id=854670" class="external text" title="https://bugzilla.redhat.com/show_bug.cgi?id=854670" rel="nofollow">bug 854670</a>. Hopefully It won't take too long to get a turbojpeg and turbojpeg-devel created for EPEL?  If you would like to look over the review request for bumblebee it is in bugzilla as <a href="https://bugzilla.redhat.com/show_bug.cgi?id=827167" class="external text" title="https://bugzilla.redhat.com/show_bug.cgi?id=827167" rel="nofollow">bug 827167</a>. The review request for VirtualGL was in bugzilla as <a href="https://bugzilla.redhat.com/show_bug.cgi?id=834127" class="external text" title="https://bugzilla.redhat.com/show_bug.cgi?id=834127" rel="nofollow">bug 834127</a>. Any help from other fedora developers or packagers appriciated with any of this bumblebee packaging. (I'm very new at this) Just email me if you'd like to work with me on trying to get any of this into fedora / rpmfusion / elrepo. gsgatlin "at" ncsu "dot" edu is my email address.
+</p>
+<a name="bbswitch_kernel_module"></a><h2> <span class="mw-headline"> bbswitch kernel module </span></h2>
+<p>
+Please note bbswitch is an out-of-tree kernel module and needs to be built with dkms due to the way the module is currently packaged. Yum will take care of this for you automatically however.</p>
+<p>
+Fedora's policy is to ban out of tree kernel modules in the distro. So for now I will keep this in the repo here at install.linux.ncsu.edu since I need a bbswitch package to work with my personal install procedures for my notebook.
+</p>
+<p>
+Over the long term bbswitch might be more acceptable to the fedora community if were to be packaged in a third party repository as a kmod V2 type rpm. (Candidates might include rpmfusion repository? Or elrepo repository for RHEL 6 systems?) I can try to look at what would be involved when I have more time. If anyone else would like to try, any help is welcome. What we have with a dkms type rpm seems to work for now. The downside, I guess, is that you pull down a c compiler, linker, etc. 
+</p>
+<a name="How_will_the_.22official.22_PRIME_solution_work_when_its_ready.3F"></a><h2> <span class="mw-headline"> How will the "official" PRIME solution work when its ready? </span></h2>
+<p>We are told that official support for Optimus Hybrid graphics in Linux will be supported <a href="http://airlied.livejournal.com/71734.html" class="external text" title="http://airlied.livejournal.com/71734.html" rel="nofollow">in this manner</a>.
+</p><p>When it arrives in fedora, assuming that you are happy with the nouveau driver, or assuming that the nvidia closed source kernel module can take advantage of all of the PRIME infrastucture at some point...
+</p>
+<p><pre>
+glxgears - should display the program running on integrated intel GPU
+DRI_PRIME=1 glxgears - should display the program running on descrete nvidia (or theoretically AMD) GPU.
+</pre></p>
+<p>Dave Airlie also plans some GNOME shell extension to make using PRIME easier with a launcher of some kind. We are not sure when Optimus will be "officially" supported within Linux. But I did want to put this info here so people know where we are headed in the future.
+</p>
+<a name="Lenovo_ideapad_Y470_.2F_Y480_.2F_Y570_.2F_Y580_.2F_Lenovo_G580_.2F_G780_.2F_Toshiba_Satellite_P870_further_info"></a><h2> <span class="mw-headline"> Lenovo ideapad Y470 / Y480 / Y570 / Y580 / Lenovo G580 / G780 / Toshiba Satellite P870 further info </span></h2>
+<p>
+If you wish to use bumblebee software with a Lenovo Ideapad on the list above or a Toshiba Satellite P870 there is a bug in the kernel which prevents it from working.
+</p>
+<p>
+<a href="https://bugzilla.kernel.org/show_bug.cgi?id=42696" class="external text" title="https://bugzilla.kernel.org/show_bug.cgi?id=42696" rel="nofollow">This is a link</a> to the bug. It is a bug in the kernel, <b>NOT</b> in the notebook BIOS. It involves the ACPI subsystem. I made a bugzilla for RHEL 6 <a href="https://bugzilla.redhat.com/show_bug.cgi?id=907241" class="external text" title="https://bugzilla.redhat.com/show_bug.cgi?id=907241" rel="nofollow">here</a> and also I made a bugzilla for fedora 18 <a href="https://bugzilla.redhat.com/show_bug.cgi?id=903360" class="external text" title="https://bugzilla.redhat.com/show_bug.cgi?id=903360" rel="nofollow">here</a>. If you own one of these affected models, and you care about either of these distros, please add yourself to the CC list within the fedora or rhel 6 bugzilla. (Whichever you care about / use) 
+</p>
+<p>
+I created a test kernel for RHEL 6 <a href="http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee/kernelbug/rhel6-bz907241/" class="external text" title="http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee/kernelbug/rhel6-bz907241/" rel="nofollow">here</a>.
+</p>
+<p>
+I created a test kernel for fedora 18 <a href="http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee/kernelbug/fedora18-bz903360/" class="external text" title="http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee/kernelbug/fedora18-bz903360/" rel="nofollow">here</a>.
+</p>
+<p>
+You could run these commands: (example assumes fedora 18)
+</p>
+<p><pre>
+rpm -Uvh kernel-devel-3.X.X-XXX.bz903360.fc18.x86_64.rpm kernel-headers-3.X.X-XXX.bz903360.fc18.x86_64.rpm
+</pre></p>
+<p><pre>
+rpm -ivh kernel-3.X.X-XXX.bz903360.fc18.x86_64.rpm
+</pre></p>
+<p>
+And that would tell you if the patch worked. (After a reboot obviously) You <i>could</i> block kernel upgrades in yum.conf with the exclude=kernel* keyword. But that would be insecure the longer you waited to update it again. (Or if you are reading this months after I wrote it it would be insecure from the get go!) You could also use the src rpms to examine how to build your own kernels until this bug gets fixed since I won't be doing it that often.
+</p>
+<p>
+If you are running RHEL 6, there is a out-of-tree kernel module dating from a time when this bug was less well understood called acpi-handle-hack that you can use as a workaround. It does not work on fedora. I'm sorry about that.
+</p>
+<p>
+RHEL 6 only with affected notebook:
+</p>
+<p><pre>
+yum -y install acpi-handle-hack
+</pre></p>
+<a name="Important_bumblebee_links"></a><h2> <span class="mw-headline"> Important bumblebee links </span></h2>
+<p>
+<a href="http://www.bumblebee-project.org/" class="external free" title="http://www.bumblebee-project.org/" rel="nofollow">http://www.bumblebee-project.org/</a>
+</p>
+<p>
+<a href="https://github.com/Bumblebee-Project/Bumblebee/wiki/" class="external free" title="https://github.com/Bumblebee-Project/Bumblebee/wiki/" rel="nofollow">https://github.com/Bumblebee-Project/Bumblebee/wiki/</a>
+</p>
+<p>
+<a href="https://github.com/Bumblebee-Project/bbswitch" class="external free" title="https://github.com/Bumblebee-Project/bbswitch" rel="nofollow">https://github.com/Bumblebee-Project/bbswitch</a>
+</p>
+<p>
+<a href="https://github.com/Bumblebee-Project/Bumblebee/issues/153" class="external free" title="https://github.com/Bumblebee-Project/Bumblebee/issues/153" rel="nofollow">https://github.com/Bumblebee-Project/Bumblebee/issues/153</a>
+</p>
+
+<!-- Saved in parser cache with key Wtechie:pcache:idhash:2096-0!1!0!!en!2!edit=0 and timestamp 20130306163921 -->
+<div class="printfooter">
+Retrieved from "<a href="http://techies.ncsu.edu/wiki/bumblebee">http://techies.ncsu.edu/wiki/bumblebee</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+					 <li id="ca-nstab-main" class="selected"><a href="/wiki/bumblebee" title="View the content page [c]" accesskey="c">Article</a></li>
+					 <li id="ca-talk" class="new"><a href="/mediawiki/index.php?title=Talk:bumblebee&amp;action=edit" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+					 <li id="ca-viewsource"><a href="/mediawiki/index.php?title=bumblebee&amp;action=edit" title="This page is protected. You can view its source. [e]" accesskey="e">View source</a></li>
+					 <li id="ca-history"><a href="/mediawiki/index.php?title=bumblebee&amp;action=history" title="Past versions of this page. [h]" accesskey="h">History</a></li>
+				</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="/mediawiki/index.php?title=Special:Userlogin&amp;returnto=bumblebee" title="You are encouraged to log in, it is not mandatory however. [o]" accesskey="o">Log in (Unity)</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mediawiki/skins/common/images/belltower.png);" href="/wiki/Main_Page" title="Visit the Main Page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-techies.ncsu.edu_links'>
+		<h5>techies.ncsu.edu links</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage"><a href="/wiki/Main_Page" title="Visit the Main Page [z]" accesskey="z">Main Page</a></li>
+				<li id="n-recentchanges"><a href="/wiki/Special:Recentchanges" title="The list of recent changes in the wiki. [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-Categories"><a href="/wiki/Special:Categories">Categories</a></li>
+				<li id="n-Events-Calendar"><a href="/wiki/Calendars:2007_Calendar">Events Calendar</a></li>
+				<li id="n-help"><a href="/wiki/Help:Contents" title="The place to find out.">Help</a></li>
+				<li id="n-New-Page"><a href="/wiki/Starting_a_New_Page">New Page</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class='portlet' id='p-campus_links'>
+		<h5>campus links</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-NCSU-Homepage"><a href="http://www.ncsu.edu ">NCSU Homepage</a></li>
+			</ul>
+		</div>
+	</div>
+		<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/wiki/Special:Search" id="searchform"><div>
+				<input id="searchInput" name="search" type="text" title="Search NCSUTechstaffDocs [f]" accesskey="f" value="" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="Go" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="Search" />
+			</div></form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/wiki/Special:Whatlinkshere/bumblebee" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/wiki/Special:Recentchangeslinked/bumblebee" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-upload"><a href="/wiki/Special:Upload" title="Upload images or media files [u]" accesskey="u">Upload file</a></li>
+<li id="t-specialpages"><a href="/wiki/Special:Specialpages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/mediawiki/index.php?title=bumblebee&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/mediawiki/index.php?title=bumblebee&amp;oldid=4194" title="Permanent link to this version of the page">Permanent link</a></li>			</ul>
+		</div>
+	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mediawiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" /></a></div>
+			<ul id="f-list">
+				<li id="lastmod"> This page was last modified 03:42, 19 February 2013.</li>
+				<li id="viewcount">This page has been accessed 5,845 times.</li>
+				<li id="privacy"><a href="/wiki/NCSUTechstaffDocs:Privacy_policy" title="NCSUTechstaffDocs:Privacy policy">Privacy policy</a></li>
+				<li id="about"><a href="/wiki/NCSUTechstaffDocs:About" title="NCSUTechstaffDocs:About">About NCSUTechstaffDocs</a></li>
+				<li id="disclaimer"><a href="/wiki/NCSUTechstaffDocs:General_disclaimer" title="NCSUTechstaffDocs:General disclaimer">Disclaimers</a></li>
+			</ul>
+		</div>
+		
+	
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+</div>
+<!-- Served in 0.950 secs. --></body></html>
