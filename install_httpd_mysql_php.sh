@@ -9,6 +9,7 @@ yum install mysql mysql-server -y
 #install php
 #php-mcrypt - needed for encryption stuff
 yum install php php-mysql php-mcrypt -y
+yum install -y php-Smarty #this is a templating engine used by SR web
 
 ####POST INSTALL
 
