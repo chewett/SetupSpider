@@ -23,6 +23,7 @@ yum install -y xchat
 yum install -y gnucash 
 yum install -y libreoffice
 yum install -y vlc
+yum install -y youtube-dl
 
 #web stuff
 yum install -y eclipse 
