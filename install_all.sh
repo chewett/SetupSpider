@@ -14,19 +14,19 @@ yum install -y wget
 yum install -y unrar
 
 
-yum install -y geany 
-yum install -y gimp inkscape 
+yum install -y geany
+yum install -y gimp inkscape
 yum install -y calibre
 yum install -y pidgin
-yum install -y thunderbird 
-yum install -y xchat 
-yum install -y gnucash 
+yum install -y thunderbird
+yum install -y xchat
+yum install -y gnucash
 yum install -y libreoffice
 yum install -y vlc
 yum install -y youtube-dl
 
 #web stuff
-yum install -y eclipse 
+yum install -y eclipse
 yum install -y mysql
 yum install -y mysql-workbench
 yum install -y filezilla
