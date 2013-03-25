@@ -2,7 +2,7 @@
 from SetupAutomator import *
 
 sa = SetupAutomator()
-sa.update()
+sa.update() #update before trying to install new packages
 
 all_packages = []
 
@@ -45,10 +45,11 @@ all_packages.append("ipython")
 all_packages.append("josm")
 all_packages.append("python-bottle")
 
+#misc networking things
 all_packages.append("wireshark")
 all_packages.append("aircrack-ng")
 all_packages.append("nmap")
 all_packages.append("nmap-frontend")
 
-
+#now install all listed packages
 sa.install_all(all_packages)
