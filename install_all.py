@@ -45,5 +45,7 @@ all_packages.append("josm")
 all_packages.append("python-bottle")
 
 all_packages.append("wireshark")
+all_packages.append("aircrack-ng")
+all_packages.append("nmap")
 
 sa.install_all(all_packages)
