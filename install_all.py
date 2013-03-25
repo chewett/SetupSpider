@@ -48,5 +48,7 @@ all_packages.append("python-bottle")
 all_packages.append("wireshark")
 all_packages.append("aircrack-ng")
 all_packages.append("nmap")
+all_packages.append("nmap-frontend")
+
 
 sa.install_all(all_packages)
