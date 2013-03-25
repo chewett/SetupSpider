@@ -1,5 +1,7 @@
 #!/bin/bash
 
+yum install texlive -y
+
 #texmaker to type stuff
 yum install texmaker -y
 
