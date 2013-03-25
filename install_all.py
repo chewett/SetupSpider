@@ -2,6 +2,7 @@
 from SetupAutomator import *
 
 sa = SetupAutomator()
+sa.update()
 
 all_packages = []
 
