@@ -3,46 +3,47 @@ from SetupAutomator import *
 
 sa = SetupAutomator()
 
-sa.install("wireshark")
-
-'''
-
-yum update
+all_packages = []
 
 #core stuff used
-yum install -y vim
-yum install -y emacs
-yum install -y screen
-yum install -y htop
-yum install -y terminator
-yum install -y svn
-yum install -y p7zip p7zip-plugins
-yum install -y git
-yum install -y wget
-yum install -y unrar
+all_packages.append("vim")
+all_packages.append("emacs")
+all_packages.append("screen")
+all_packages.append("htop")
+all_packages.append("terminator")
+all_packages.append("svn")
+all_packages.append("p7zip")
+all_packages.append("p7zip-plugins")
+all_packages.append("git")
+all_packages.append("wget")
+all_packages.append("unrar")
 
 
-yum install -y geany
-yum install -y gimp inkscape
-yum install -y calibre
-yum install -y pidgin
-yum install -y thunderbird
-yum install -y xchat
-yum install -y gnucash
-yum install -y libreoffice
-yum install -y vlc
-yum install -y youtube-dl
+all_packages.append("geany")
+all_packages.append("gimp")
+all_packages.append("inkscape")
+all_packages.append("calibre")
+all_packages.append("pidgin")
+all_packages.append("thunderbird")
+all_packages.append("xchat")
+all_packages.append("gnucash")
+all_packages.append("libreoffice")
+all_packages.append("vlc")
+all_packages.append("youtube-dl")
 
 #web stuff
-yum install -y eclipse
-yum install -y mysql
-yum install -y mysql-workbench
-yum install -y filezilla
-yum install -y cssed
+all_packages.append("eclipse")
+all_packages.append("mysql")
+all_packages.append("mysql-workbench")
+all_packages.append("filezilla")
+all_packages.append("cssed")
 
-yum install -y banshee
-yum install -y vlc
-yum install -y ipython
-yum install -y josm
-yum install -y python-bottle
-'''
+all_packages.append("banshee")
+all_packages.append("vlc")
+all_packages.append("ipython")
+all_packages.append("josm")
+all_packages.append("python-bottle")
+
+all_packages.append("wireshark")
+
+sa.install_all(all_packages)
