@@ -12,3 +12,6 @@ class SetupAutomator():
 
     def update(self):
         subprocess.call(["sudo", "yum", "update"])
+
+    def run(self, command):
+        subprocess.call(command, shell=True)
