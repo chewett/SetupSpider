@@ -31,6 +31,7 @@ all_packages.append("gnucash")
 all_packages.append("libreoffice")
 all_packages.append("vlc")
 all_packages.append("youtube-dl")
+all_packages.append("virtualbox")
 
 #web stuff
 all_packages.append("eclipse")
