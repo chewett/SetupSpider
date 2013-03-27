@@ -18,7 +18,7 @@ all_packages.append("p7zip-plugins")
 all_packages.append("git")
 all_packages.append("wget")
 all_packages.append("unrar")
-
+all_packages.append("baobab") #disk analyser
 
 all_packages.append("geany")
 all_packages.append("gimp")
