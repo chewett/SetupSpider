@@ -3,13 +3,12 @@ import sys
 sys.path.append("../")
 from SetupAutomator import *
 
-sa = SetupAutomator()
-sa.update() #update before trying to install new packages
+sa = SetupAutomator("apt")
 
 all_packages = []
 
-all_packages.append("oad")
-all_packages.append("wesnoth")
+all_packages.append("screen")
+all_packages.append("vim")
 
 #now install all listed packages
 sa.install_all(all_packages)
