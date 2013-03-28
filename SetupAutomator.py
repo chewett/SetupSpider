@@ -21,7 +21,13 @@ class SetupAutomator():
         subprocess.call(self._get_install_cmd() + packages)
 
     def update(self):
-        subprocess.call(["sudo", "yum", "update"])
+        if self.install_type == "yum":
+            subprocess.call(["sudo", "yum", "update"])
+        elif self.install_type == "apt":
+            subprocess.call(["sudo", "apt-get", "update"])
+            subprocess.call(["sudo", "apt-get", "dist-upgrade"])
+        else:
+            exit("Unknown install type")
 
     def run(self, command):
         subprocess.call(command, shell=True)
