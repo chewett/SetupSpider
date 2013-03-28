@@ -12,6 +12,7 @@ all_packages.append("apache2")
 all_packages.append("mysql-server")
 all_packages.append("php5")
 all_packages.append("php5-mysql")
+all_packages.append("mailx") #recommended
 
 #now install all listed packages
 sa.install_all(all_packages)
