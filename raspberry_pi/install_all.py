@@ -4,6 +4,7 @@ sys.path.append("../")
 from SetupAutomator import *
 
 sa = SetupAutomator("apt")
+sa.update()
 
 all_packages = []
 
