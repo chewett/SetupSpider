@@ -1,6 +1,6 @@
 import subprocess
 
-class SetupAutomator():
+class SetupSpider():
 
     def __init__(self, install_type="yum"):
         self.install_type = install_type

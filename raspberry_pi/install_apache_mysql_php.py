@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import sys
 sys.path.append("../")
-from SetupAutomator import *
+from SetupSpider import *
 
-sa = SetupAutomator("apt")
+sa = SetupSpider("apt")
 sa.update()
 
 all_packages = []

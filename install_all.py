@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-from SetupAutomator import *
+from SetupSpider import *
 
-sa = SetupAutomator()
+sa = SetupSpider()
 sa.update() #update before trying to install new packages
 
 all_packages = []
