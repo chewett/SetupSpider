@@ -32,6 +32,7 @@ all_packages.append("libreoffice")
 all_packages.append("vlc")
 all_packages.append("youtube-dl")
 all_packages.append("VirtualBox")
+all_packages.append("calibre")
 
 #web stuff
 all_packages.append("eclipse")
