@@ -16,6 +16,7 @@ all_packages.append("chromium")
 all_packages.append("vlc")
 all_packages.append("youtube-dl")
 all_packages.append("nmap")
+all_packages.append("htop")
 
 
 

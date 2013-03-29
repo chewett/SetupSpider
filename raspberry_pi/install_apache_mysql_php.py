@@ -20,8 +20,8 @@ sa.install_all(all_packages)
 ####POST INSTALL
 
 #starts mysql daemon for now
-sa.run("sudo service start mysql")
+sa.run("sudo service mysql start")
 #sets up mysql nicely
 sa.run("sudo /usr/bin/mysql_secure_installation")
 #stops mysql daemon
-sa.run("sudo service stop mysql")
+sa.run("sudo service mysql stop")
