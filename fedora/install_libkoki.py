@@ -1,4 +1,6 @@
 #!/bin/env python
+import sys
+sys.path.append("../")
 from SetupSpider import *
 
 sa = SetupSpider()
