@@ -38,6 +38,7 @@ all_packages.append("VirtualBox")
 #gstreamer plugs
 all_packages.append("gstreamer-plugins-ugly")
 all_packages.append("gstreamer-plugins-bad")
+all_packages.append("gstreamer-ffmpeg")
 
 #web stuff
 all_packages.append("eclipse")
