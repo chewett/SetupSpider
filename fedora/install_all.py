@@ -35,6 +35,10 @@ all_packages.append("vlc")
 all_packages.append("youtube-dl")
 all_packages.append("VirtualBox")
 
+#gstreamer plugs
+all_packages.append("gstreamer-plugins-ugly")
+all_packages.append("gstreamer-plugins-bad")
+
 #web stuff
 all_packages.append("eclipse")
 all_packages.append("mysql")
