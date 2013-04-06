@@ -39,6 +39,8 @@ all_packages.append("VirtualBox")
 all_packages.append("gstreamer-plugins-ugly")
 all_packages.append("gstreamer-plugins-bad")
 all_packages.append("gstreamer-ffmpeg")
+all_packages.append("gstreamer1-plugins-good")
+all_packages.append("gstreamer1-plugins-ugly")
 
 #web stuff
 all_packages.append("eclipse")
@@ -48,6 +50,7 @@ all_packages.append("filezilla")
 all_packages.append("cssed")
 
 all_packages.append("banshee")
+all_packages.append("banshee-community-extensions")
 all_packages.append("vlc")
 all_packages.append("ipython")
 all_packages.append("josm")
