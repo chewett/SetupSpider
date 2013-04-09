@@ -2,6 +2,10 @@ import subprocess
 
 class SetupSpider():
 
+    """ By default it sets it up for yum base systems but can take any string
+        If it uses a non yum based string it will work on what it can,
+        or fail to work.
+    """
     def __init__(self, install_type="yum"):
         self.install_type = install_type
 
