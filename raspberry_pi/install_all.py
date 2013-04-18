@@ -18,7 +18,7 @@ all_packages.append("youtube-dl")
 all_packages.append("nmap")
 all_packages.append("htop")
 all_packages.append("byobu")
-
+all_packages.append("irssi")
 
 #now install all listed packages
 sa.install_all(all_packages)
