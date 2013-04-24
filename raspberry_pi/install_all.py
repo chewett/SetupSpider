@@ -9,6 +9,7 @@ sa.update()
 all_packages = []
 
 all_packages.append("screen")
+all_packages.append("python-pip")
 all_packages.append("vim")
 all_packages.append("git")
 all_packages.append("terminator")
