@@ -22,7 +22,7 @@ all_packages.append("git")
 all_packages.append("wget")
 all_packages.append("unrar")
 all_packages.append("baobab") #disk analyser
-all_packgees.append("aspell-en")
+all_packages.append("aspell-en")
 
 all_packages.append("geany")
 all_packages.append("gimp")
