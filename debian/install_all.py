@@ -35,7 +35,7 @@ all_packages.append("gnucash")
 all_packages.append("libreoffice")
 #all_packages.append("youtube-dl")
 #all_packages.append("VirtualBox")
-
+all_packages.append("rhythmbox")
 
 
 #web stuff
@@ -44,6 +44,7 @@ all_packages.append("eclipse")
 all_packages.append("mysql-workbench")
 all_packages.append("filezilla")
 all_packages.append("cssed")
+all_packages.append("netbeans")
 
 all_packages.append("vlc")
 all_packages.append("ipython")
