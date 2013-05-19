@@ -24,6 +24,7 @@ all_packages.append("p7zip-full")
 all_packages.append("unrar-free")
 all_packages.append("baobab") #disk analyser
 
+all_packages.append("chromium")
 all_packages.append("geany")
 all_packages.append("gimp")
 all_packages.append("inkscape")
