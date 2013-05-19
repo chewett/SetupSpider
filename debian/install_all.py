@@ -26,6 +26,7 @@ all_packages.append("baobab") #disk analyser
 
 all_packages.append("chromium")
 all_packages.append("geany")
+all_packages.append("flashplugin-nonfree")
 all_packages.append("gimp")
 all_packages.append("inkscape")
 all_packages.append("calibre")
