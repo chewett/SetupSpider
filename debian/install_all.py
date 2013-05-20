@@ -21,6 +21,7 @@ all_packages.append("subversion")
 all_packages.append("git-core")
 all_packages.append("wget")
 all_packages.append("p7zip-full")
+all_packages.append("transmission")
 all_packages.append("unrar-free")
 all_packages.append("baobab") #disk analyser
 
