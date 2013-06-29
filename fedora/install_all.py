@@ -35,6 +35,7 @@ all_packages.append("gnucash")
 all_packages.append("libreoffice")
 all_packages.append("youtube-dl")
 all_packages.append("VirtualBox")
+all_packages.append("gparted")
 
 #gstreamer plugs
 all_packages.append("gstreamer-plugins-ugly")
