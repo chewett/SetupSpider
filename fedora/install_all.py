@@ -50,6 +50,7 @@ all_packages.append("mysql")
 all_packages.append("mysql-workbench")
 all_packages.append("filezilla")
 all_packages.append("cssed")
+all_packages.append("firefox")
 
 all_packages.append("rhythmbox")
 all_packages.append("banshee")
