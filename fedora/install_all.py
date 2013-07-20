@@ -45,6 +45,7 @@ all_packages.append("gstreamer1-plugins-good")
 all_packages.append("gstreamer1-plugins-ugly")
 
 #web stuff
+all_packages.append("netbeans-platform")
 all_packages.append("eclipse")
 all_packages.append("mysql")
 all_packages.append("mysql-workbench")
