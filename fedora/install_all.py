@@ -60,6 +60,7 @@ all_packages.append("vlc")
 all_packages.append("ipython")
 all_packages.append("josm")
 all_packages.append("python-bottle")
+all_packages.append("MySQL-python")
 
 #misc networking things
 all_packages.append("wireshark")
