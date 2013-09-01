@@ -17,12 +17,14 @@ class SetupSpider():
         else:
             exit("Unknown install type")
 
-
     def install(self, package):
         subprocess.call(self._get_install_cmd().append(package))
 
     def install_all(self, packages):
         subprocess.call(self._get_install_cmd() + packages)
+		
+	def group_install(self, name):
+		subprocess.call(['sudo', 'yum', 'groupinstall', name])
 
     def update(self):
         if self.install_type == "yum":
