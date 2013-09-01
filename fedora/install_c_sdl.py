@@ -14,4 +14,4 @@ all_packages.append("SDL*")
 sa.install_all(all_packages)
 
 #install all the c stuff
-sa.run("sudo yum groupinstall 'Development Tools'")
+sa.group_install('Development Tools')
