@@ -23,6 +23,8 @@ all_packages.append("wget")
 all_packages.append("unrar")
 all_packages.append("baobab") #disk analyser
 all_packages.append("aspell-en")
+all_packages.append("tar")
+all_packages.append("vnstat")
 
 all_packages.append("geany")
 all_packages.append("gedit")
