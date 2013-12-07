@@ -9,6 +9,7 @@ sa.update() #update before trying to install new packages
 all_packages = []
 
 #core stuff used
+all_packages.append("bash-completion")
 all_packages.append("vim")
 all_packages.append("emacs")
 all_packages.append("screen")
