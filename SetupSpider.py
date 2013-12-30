@@ -22,12 +22,12 @@ class SetupSpider():
 
     def install_all(self, packages):
         subprocess.call(self._get_install_cmd() + packages)
-		
-	def group_install(self, name):
-		if self.install_type != "yum":
-			print "ERROR: cannot run group install for non yum based installer"
-		else:
-			subprocess.call(['sudo', 'yum', 'groupinstall', name])
+
+    def group_install(self, name):
+        if self.install_type != "yum":
+            print "ERROR: cannot run group install for non yum based installer"
+        else:
+            subprocess.call(['sudo', 'yum', 'groupinstall', name])
 
     def update(self):
         if self.install_type == "yum":
