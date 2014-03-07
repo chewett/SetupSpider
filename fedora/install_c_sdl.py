@@ -9,6 +9,7 @@ sa.update() #update before trying to install new packages
 all_packages = []
 
 all_packages.append("SDL*")
+all_packages.append("gcc-c++")
 
 #now install all listed packages
 sa.install_all(all_packages)
