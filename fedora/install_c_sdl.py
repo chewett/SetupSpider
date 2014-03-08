@@ -10,6 +10,7 @@ all_packages = []
 
 all_packages.append("SDL*")
 all_packages.append("gcc-c++")
+all_packages.append("gdb")
 
 #now install all listed packages
 sa.install_all(all_packages)
