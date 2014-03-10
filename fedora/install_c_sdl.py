@@ -11,6 +11,7 @@ all_packages = []
 all_packages.append("SDL*")
 all_packages.append("gcc-c++")
 all_packages.append("gdb")
+all_packages.append("valgrind")
 
 #now install all listed packages
 sa.install_all(all_packages)
