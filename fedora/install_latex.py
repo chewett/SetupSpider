@@ -13,6 +13,7 @@ all_packages.append("texmaker")
 all_packages.append("tex-gastex")
 all_packages.append("texlive-collection-fontsrecommended")
 all_packages.append("texlive-times")
+all_packages.append("texlive-detex")
 all_packages.append("tex-adjustbox")
 all_packages.append("tex(fullpage.sty)")
 
