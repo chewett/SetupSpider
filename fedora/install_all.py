@@ -32,6 +32,8 @@ all_packages.append("thunderbird")
 all_packages.append("gnucash")
 all_packages.append("libreoffice")
 all_packages.append("youtube-dl")
+all_packages.append("ffmpeg")
+all_packages.append("avconv")
 all_packages.append("gparted")
 
 #web stuff
