@@ -3,7 +3,7 @@ import sys
 sys.path.append("../")
 from SetupSpider import *
 
-sa = SetupSpider()
+sa = SetupSpider(install_type='dnf')
 sa.update() #update before trying to install new packages
 
 all_packages = []
@@ -32,8 +32,8 @@ all_packages.append("thunderbird")
 all_packages.append("gnucash")
 all_packages.append("libreoffice")
 all_packages.append("youtube-dl")
-all_packages.append("ffmpeg")
-all_packages.append("avconv")
+#all_packages.append("ffmpeg")
+#all_packages.append("avconv")
 all_packages.append("gparted")
 
 #web stuff
@@ -43,9 +43,9 @@ all_packages.append("filezilla")
 all_packages.append("cssed")
 all_packages.append("firefox")
 
-all_packages.append("rhythmbox")
-all_packages.append("banshee")
-all_packages.append("banshee-community-extensions")
+#all_packages.append("rhythmbox")
+#all_packages.append("banshee")
+#all_packages.append("banshee-community-extensions")
 all_packages.append("ipython")
 all_packages.append("josm")
 all_packages.append("python-bottle")

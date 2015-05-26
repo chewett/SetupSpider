@@ -3,7 +3,7 @@ import sys
 sys.path.append("../")
 from SetupSpider import *
 
-sa = SetupSpider()
+sa = SetupSpider(install_type='dnf')
 sa.update() #update before trying to install new packages
 
 all_packages = []
