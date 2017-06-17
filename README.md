@@ -9,7 +9,7 @@ fedora but i am including some raspberry pi apt scripts.
 Each branch represents a different version of fedora currently, it might be
 better to seperate the different OS types into different git repo's since
 currently the only branched OS is fedora. master follows the most current
-fedora release, At the moment that is fedora core 20.
+fedora release, At the moment that is fedora core 22.
 
 It can be configured to use any other setup based scripts where a list of
 packages need to be installed.
