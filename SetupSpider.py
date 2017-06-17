@@ -17,7 +17,7 @@ class SetupSpider():
         elif self.install_type == "apt":
             return ["sudo", "apt-get", "install"]
         else:
-            exit("Unknown install type")
+            raise Exception("Unknown install type")
 
     def install(self, package):
         subprocess.call(self._get_install_cmd().append(package))
