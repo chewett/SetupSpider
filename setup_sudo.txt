@@ -1,9 +1,0 @@
-need to add the user to sudo'ers list
-
-run as root: 
-visudo
-
-go to the line
-root 	(ALL)=ALL		ALL
-and add your username below with the same config, eg for chewett
-chewett (ALL)=ALL		ALL
