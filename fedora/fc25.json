@@ -1,0 +1,1 @@
+{"install_type": "dnf", "package_sets": {"default": ["git", "vim", "screen", "byobu", "htop", "terminator", "svn", "p7zip", "p7zip-plugins", "aspell-en"], "dev": ["pyserial", "git"]}}
