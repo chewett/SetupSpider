@@ -5,14 +5,14 @@ import argparse
 parser = argparse.ArgumentParser(description='Used to add packages to each install set')
 parser.add_argument('setup_file', help='Location of the setup file')
 parser.add_argument('package', help='Package to add to the install group')
-parser.add_argument('install_group', help="Install group to add package to", default="default")
+parser.add_argument('--group', help="Install group to add package to", default="default")
 
 args = parser.parse_args()
 
 
 setup_file = args.setup_file
 package = args.package
-install_group = args.install_group
+install_group = args.group
 
 with open(setup_file) as package_file:
     install_data = json.load(package_file)
