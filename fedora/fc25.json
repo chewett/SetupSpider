@@ -23,8 +23,7 @@
             "aspell-en"
         ],
         "python-dev": [
-            "pyserial",
-            "git"
+            "pyserial"
         ]
     }
 }
