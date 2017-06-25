@@ -1,1 +1,30 @@
-{"install_type": "dnf", "package_sets": {"default": ["git", "vim", "screen", "byobu", "htop", "terminator", "svn", "p7zip", "p7zip-plugins", "aspell-en"], "dev": ["pyserial", "git"]}}
+{
+    "install_type": "dnf",
+    "package_sets": {
+        "cpp-dev": [
+            "gcc-c++",
+            "SDL2",
+            "SDL2-devel",
+            "SDL2_image",
+            "SDL2_image-devel",
+            "SDL2_ttf",
+            "SDL2_ttf-devel"
+        ],
+        "default": [
+            "git",
+            "vim",
+            "screen",
+            "byobu",
+            "htop",
+            "terminator",
+            "svn",
+            "p7zip",
+            "p7zip-plugins",
+            "aspell-en"
+        ],
+        "python-dev": [
+            "pyserial",
+            "git"
+        ]
+    }
+}
