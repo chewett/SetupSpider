@@ -1,0 +1,83 @@
+{
+    "install_type": "dnf",
+    "package_sets": {
+        "latex": [
+            "texlive",
+            "texmaker",
+            "tex-gastex",
+            "texlive-collection-fontsrecommended",
+            "texlive-times",
+            "texlive-detex",
+            "tex-adjustbox",
+            "tex(fullpage.sty)"
+        ],
+        "c_sdl": [
+            "SDL*",
+            "gcc-c++",
+            "gdb",
+            "valgrind"
+        ],
+        "games": [
+            "oad",
+            "wesnoth"
+        ],
+        "php-dev": [
+            "httpd",
+            "mysql",
+            "mysql-server",
+            "php",
+            "php-mysql",
+            "php-mcrypt",
+            "php-Smarty"
+        ],
+        "truecrypt-libs": [
+            "fuse-devel"
+        ],
+        "networking": [
+            "wireshark",
+            "aircrack-ng",
+            "nmap",
+            "nmap-frontend"
+        ],
+        "core": [
+            "bash-completion",
+            "vim",
+            "screen",
+            "byobu",
+            "htop",
+            "terminator",
+            "svn",
+            "p7zip",
+            "p7zip-plugins",
+            "git",
+            "wget",
+            "aspell-en",
+            "tar",
+            "geany",
+            "gedit",
+            "gimp",
+            "inkscape",
+            "calibre",
+            "thunderbird",
+            "gnucash",
+            "libreoffice",
+            "youtube-dl",
+            "ffmpeg",
+            "avconv",
+            "gparted",
+            "eclipse",
+            "mysql",
+            "filezilla",
+            "cssed",
+            "firefox",
+            "rhythmbox",
+            "banshee",
+            "banshee-community-extensions",
+            "ipython",
+            "josm",
+            "python-bottle",
+            "MySQL-python",
+            "myrepos"
+        ]
+    }
+}
