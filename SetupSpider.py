@@ -53,7 +53,7 @@ class SetupSpider():
         if self.config['install_type'] == "yum":
             return ["sudo", "yum", "install"]
         elif self.config['install_type'] == "dnf":
-            return ["sudo", "dnf", "install"]
+            return ["sudo", "dnf", "install", "-y"]
         elif self.config['install_type'] == "apt":
             return ["sudo", "apt-get", "install"]
         else:
