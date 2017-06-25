@@ -50,35 +50,38 @@ class SetupSpider():
                 print ", ".join(self.config['package_sets'][install_group])
 
     def _get_install_cmd(self):
-        if self.install_type == "yum":
+        if self.config['install_type'] == "yum":
             return ["sudo", "yum", "install"]
-        elif self.install_type == "dnf":
+        elif self.config['install_type'] == "dnf":
             return ["sudo", "dnf", "install"]
-        elif self.install_type == "apt":
+        elif self.config['install_type'] == "apt":
             return ["sudo", "apt-get", "install"]
         else:
             raise Exception("Unknown install type")
 
-    def install(self, package):
-        subprocess.call(self._get_install_cmd().append(package))
+    def install_group(self, install_group):
+        all_packages = set()
+        for package in self.config['package_sets'][install_group]:
+                all_packages.add(package)
 
-    def install_all(self, packages):
-        subprocess.call(self._get_install_cmd() + packages)
+        subprocess.call(self._get_install_cmd() + list(all_packages))
 
-    def group_install(self, name):
-        if self.install_type != "yum":
-            print "ERROR: cannot run group install for non yum based installer"
-        else:
-            subprocess.call(['sudo', 'yum', 'groupinstall', name])
+    def install_all(self):
+        all_packages = set()
+        for install_group in self.config['package_sets']:
+            for package in self.config['package_sets'][install_group]:
+                all_packages.add(package)
+
+        subprocess.call(self._get_install_cmd() + list(all_packages))
 
     def update(self):
-        if self.install_type == "yum":
+        if self.config['install_type'] == "yum":
             subprocess.call(["sudo", "yum", "update"])
-        elif self.install_type == 'dnf':
+        elif self.config['install_type'] == 'dnf':
             subprocess.call(["sudo", "dnf", "update"])
-        elif self.install_type == "apt":
+        elif self.config['install_type'] == "apt":
             subprocess.call(["sudo", "apt-get", "update"])
-            subprocess.call(["sudo", "apt-get", "dist-upgrade"])
+            subprocess.call(["sudo", "apt-get", "upgrade"])
         else:
             exit("Unknown install type")
 
