@@ -1,6 +1,8 @@
 Setup Spider
 ============
 
+TODO: update this
+
 This is a set of scripts used to install programs that i normally install on
 the computer. This is a set of scripts used to install the programs
 automatically for yum or apt based systems. This was primarily written for
