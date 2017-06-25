@@ -42,6 +42,12 @@ class SetupSpider():
         else:
             print "Package already added"
 
+    def list_groups(self, show_packages=False):
+        print "Install groups for file", self.config_file
+        for install_group in self.config['package_sets']:
+            print "-", install_group#
+            if show_packages:
+                print ", ".join(self.config['package_sets'][install_group])
 
     def _get_install_cmd(self):
         if self.install_type == "yum":
