@@ -1,0 +1,83 @@
+{
+    "install_type": "yum",
+    "package_sets": {
+        "latex": [
+            "texlive",
+            "texmaker",
+            "tex-gastex",
+            "texlive-collection-fontsrecommended",
+            "texlive-times",
+            "texlive-detex",
+            "tex-adjustbox",
+            "tex(fullpage.sty)"
+        ],
+        "games": [
+            "oad",
+            "wesnoth"
+        ],
+        "php-dev": [
+            "httpd",
+            "mysql",
+            "mysql-server",
+            "php",
+            "php-mysql",
+            "php-mcrypt",
+            "php-Smarty"
+        ],
+        "truecrypt-libs": [
+            "fuse-devel"
+        ],
+
+        "networking": [
+            "wireshark",
+            "aircrack-ng",
+            "nmap",
+            "nmap-frontend"
+        ],
+        "core": [
+            "vim",
+            "emacs",
+            "screen",
+            "byobu",
+            "htop",
+            "terminator",
+            "svn",
+            "p7zip",
+            "p7zip-plugins",
+            "git",
+            "wget",
+            "unrar",
+            "aspell-en",
+            "baobab",
+            "geany",
+            "gimp",
+            "inkscape",
+            "calibre",
+            "pidgin",
+            "thunderbird",
+            "xchat",
+            "gnucash",
+            "libreoffice",
+            "youtube-dl",
+            "VirtualBox",
+            "gparted",
+            "gstreamer-plugins-ugly",
+            "gstreamer-plugins-bad",
+            "gstreamer-ffmpeg",
+            "gstreamer1-plugins-good",
+            "gstreamer1-plugins-ugly",
+            "eclipse",
+            "mysql",
+            "mysql-workbench",
+            "filezilla",
+            "cssed",
+            "rhythmbox",
+            "banshee",
+            "banshee-community-extensions",
+            "vlc",
+            "ipython",
+            "josm",
+            "python-bottle"
+        ]
+    }
+}
