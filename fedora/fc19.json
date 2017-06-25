@@ -1,0 +1,87 @@
+{
+    "install_type": "yum",
+    "package_sets": {
+        "truecrypt-libs": [
+            "fuse-devel"
+        ],
+        "latex": [
+            "texlive",
+            "texmaker",
+            "tex-gastex",
+            "texlive-collection-fontsrecommended",
+            "texlive-times",
+            "texlive-detex",
+            "tex-adjustbox",
+            "tex(fullpage.sty)"
+        ],
+        "php-dev": [
+            "httpd",
+            "mysql",
+            "mysql-server",
+            "php",
+            "php-mysql",
+            "php-mcrypt",
+            "php-Smarty"
+        ],
+        "c_sdl": [
+            "SDL*"
+        ],
+        "networking": [
+            "wireshark",
+            "aircrack-ng",
+            "nmap",
+            "nmap-frontend"
+        ],
+        "core": [
+            "bash-completion",
+            "vim",
+            "emacs",
+            "screen",
+            "byobu",
+            "htop",
+            "terminator",
+            "svn",
+            "p7zip",
+            "p7zip-plugins",
+            "git",
+            "wget",
+            "unrar",
+            "aspell-en",
+            "tar",
+            "vnstat",
+            "geany",
+            "gedit",
+            "gimp",
+            "inkscape",
+            "calibre",
+            "pidgin",
+            "thunderbird",
+            "xchat",
+            "gnucash",
+            "libreoffice",
+            "youtube-dl",
+            "VirtualBox",
+            "gparted",
+            "gstreamer-plugins-ugly",
+            "gstreamer-plugins-bad",
+            "gstreamer-ffmpeg",
+            "gstreamer1-plugins-good",
+            "gstreamer1-plugins-ugly",
+            "eclipse",
+            "mysql",
+            "mysql-workbench",
+            "filezilla",
+            "cssed",
+            "firefox",
+            "chromium",
+            "rhythmbox",
+            "banshee",
+            "banshee-community-extensions",
+            "vlc",
+            "ipython",
+            "josm",
+            "python-bottle",
+            "MySQL-python"
+        ]
+    }
+}
