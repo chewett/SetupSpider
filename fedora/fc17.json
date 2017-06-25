@@ -1,5 +1,5 @@
 {
-    "install_type": "dnf",
+    "install_type": "yum",
     "package_sets": {
         "latex": [
             "texmaker",
