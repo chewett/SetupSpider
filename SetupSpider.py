@@ -1,3 +1,5 @@
+import os
+import json
 import subprocess
 
 class SetupSpider():
@@ -6,8 +8,40 @@ class SetupSpider():
         If it uses a non yum based string it will work on what it can,
         or fail to work.
     """
-    def __init__(self, install_type="yum"):
-        self.install_type = install_type
+    def __init__(self, config_file):
+        self.config_file = config_file
+        self.config = {}
+
+    def create(self, install_type):
+        if not os.path.isfile(self.config_file):
+            self.config = {"package_sets": {}, "install_type": install_type}
+            self.save_config()
+            print "Created file at", self.config_file
+
+        else:
+            print "Warning: file already exists, not creating"
+
+    def save_config(self):
+        with open(self.config_file, "w") as package_file:
+            json.dump(self.config, package_file, sort_keys = True, indent = 4, separators = (',', ': '))
+
+    def load(self):
+        with open(self.config_file) as package_file:
+            self.config = json.load(package_file)
+
+    def add_package(self, package, install_group):
+        if install_group not in self.config['package_sets']:
+            self.config['package_sets'][install_group] = [package]
+            print "Adding new install group", install_group
+            print "Adding package", package
+
+        elif package not in self.config['package_sets'][install_group]:
+            self.config['package_sets'][install_group].append(package)
+            print "Adding package", package
+
+        else:
+            print "Package already added"
+
 
     def _get_install_cmd(self):
         if self.install_type == "yum":
