@@ -1,0 +1,51 @@
+{
+    "install_type": "dnf",
+    "package_sets": {
+        "latex": [
+            "texmaker",
+            "tex-gastex",
+            "texlive-collection-fontsrecommended",
+            "texlive-times",
+            "tex(fullpage.sty)"
+        ],
+        "php-dev": [
+            "httpd",
+            "mysql",
+            "mysql-server",
+            "php",
+            "php-mysql",
+            "php-mcrypt"
+        ],
+        "games": [
+            "oad",
+            "wesnoth"
+        ],
+
+        "core": [
+            "git",
+            "geany",
+            "gimp",
+            "inkscape",
+            "calibre",
+            "pidgin",
+            "thunderbird",
+            "xchat",
+            "gnucash",
+            "libreoffice",
+            "eclipse",
+            "mysql",
+            "banshee",
+            "terminator",
+            "htop",
+            "vlc",
+            "p7zip",
+            "p7zip-plugins",
+            "filezilla",
+            "mysql-workbench",
+            "ipython",
+            "svn",
+            "josm",
+            "python-bottle"
+        ]
+    }
+}
