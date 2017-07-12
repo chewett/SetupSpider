@@ -24,7 +24,8 @@
         ],
         "python-dev": [
             "pyserial",
-            "ipython"
+            "ipython",
+            "python-mysql"
         ]
     }
 }
