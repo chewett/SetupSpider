@@ -22,6 +22,9 @@
             "p7zip-plugins",
             "aspell-en"
         ],
+        "mysql": [
+            "mysql"
+        ],
         "python-dev": [
             "pyserial",
             "ipython",
