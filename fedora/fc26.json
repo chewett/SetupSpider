@@ -29,6 +29,10 @@
             "pyserial",
             "ipython",
             "python-mysql"
+        ],
+        "vm": [
+            "kernel-devel",
+            "kernel-headers"
         ]
     }
 }
