@@ -33,6 +33,12 @@
         "vm": [
             "kernel-devel",
             "kernel-headers"
+        ],
+        "web": [
+            "httpd",
+            "mysqld",
+            "php",
+            "composer"
         ]
     }
 }
