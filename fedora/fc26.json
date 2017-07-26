@@ -39,7 +39,8 @@
             "httpd",
             "mysqld",
             "php",
-            "composer"
+            "composer",
+            "php-mysqlnd"
         ]
     }
 }
