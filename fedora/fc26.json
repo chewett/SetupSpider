@@ -20,7 +20,8 @@
             "svn",
             "p7zip",
             "p7zip-plugins",
-            "aspell-en"
+            "aspell-en",
+            "gitk"
         ],
         "mysql": [
             "mysql"
